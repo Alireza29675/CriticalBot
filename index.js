@@ -33,6 +33,8 @@ class CriticsBot extends Bot {
 
             if (this.admins.includes(id)) this.sendMessage(msg.chat.id, locale.adminExist)
 
+            this.addAdmin(id)
+
             this.sendMessage(id, locale.helloAdmin)
             adminsDB.data.push({
                 id: id,
