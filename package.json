@@ -1,0 +1,24 @@
+{
+  "name": "criticalbot",
+  "version": "1.0.0",
+  "description": "CriticalBot of StartupHouse",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "critical",
+    "startuphouse",
+    "telegram"
+  ],
+  "author": "Startup House",
+  "license": "MIT",
+  "dependencies": {
+    "handy-storage": "^1.0.0",
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
